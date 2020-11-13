@@ -8,6 +8,7 @@
 </head>
 <body>
 <? get_header(); ?>
+<img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/gintoki.jpeg">
 <h1><?php bloginfo( 'name' ); ?></h1>
 <h2><?php bloginfo( 'description' ); ?></h2>
 
