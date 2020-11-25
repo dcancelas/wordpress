@@ -17,11 +17,17 @@ body {
     color: #fafafa;
     font-family: 'Roboto', sans-serif;
 }
+a:link, a:visited {
+    color: #616a92;
+}
 #site-content {
     border-radius: 25px;
     margin: 40px 100px 40px 100px;
     padding: 40px;
     background-color: #2b2e3f;
+}
+#thumbnail {
+    border-radius: 25px;
 }
 #footer {
     padding: 20px;
