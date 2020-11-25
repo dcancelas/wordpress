@@ -2,6 +2,28 @@
 Theme Name: Mi Primer Tema
 */
 
+#header {
+    padding: 60px;
+    text-align: center;
+    background: #21222c;
+    color: white;
+    font-size: 20px;
+}
+#name {
+    text-transform: uppercase;
+}
 body {
-    background-color: #1da1f2;
+    background-color: #21222c;
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+}
+#site-content {
+    border-radius: 25px;
+    margin: 40px 100px 40px 100px;
+    padding: 40px;
+    background-color: #2b2e3f;
+}
+#footer {
+    padding: 20px;
+    text-align: center;
 }
