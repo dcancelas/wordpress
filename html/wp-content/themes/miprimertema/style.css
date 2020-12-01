@@ -20,11 +20,21 @@ body {
 a:link, a:visited {
     color: #616a92;
 }
+.white-link:link, .white-link:visited {
+    color: white;
+    text-decoration: none;
+}
+.white-link:hover {
+    text-decoration: underline;
+}
 #site-content {
     border-radius: 25px;
     margin: 40px 100px 40px 100px;
     padding: 40px;
     background-color: #2b2e3f;
+}
+#post {
+    width: 300px;
 }
 #thumbnail {
     border-radius: 25px;
