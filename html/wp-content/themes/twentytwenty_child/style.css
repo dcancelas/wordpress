@@ -6467,4 +6467,15 @@ a.to-the-top > * {
 	.wp-block-pullquote.is-style-solid-color.alignright::before {
 		top: 0;
 	}
+
+	/* Animación 404.php */
+	@keyframes changecolor {
+		0% {
+			background: #19dcea;
+		}
+		100% {
+			background: #b22cff;
+		}
+	}
+
 }
